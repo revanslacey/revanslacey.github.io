@@ -1,32 +1,222 @@
 <!DOCTYPE html>
 <html>
 
+<link href="https://fonts.googleapis.com/css?family=Reenie Beanie" rel="stylesheet" type="text/css">    
+    
 <style>
     
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color:floralwhite;
+        width: 960px;
+        margin: auto;
+    }
     
     h1, h2, h3 {
-        color: darkblue;
+        color:dimgray;
         font-family: sans-serif;
+        text-align: center;
     }
     
-    p {
-        color: black;
+    h4 {
+        color:dimgray;
+        font-family: sans-serif;
+        text-align: left;
+        display: inline;
+    }
+    
+    p, li {
+        color: darkblue;
+        font-family: Reenie Beanie, monospace;
+        font-size: 16px;
+    }
+    
+    br {
+        line-height: 1;
+    }
+    
+    .box{
+        background-color: white;
+        padding: 10px;
+        border-color: dimgray;
+        border-width: 2px;
+        border-style: inset;
+        text-align: center;
+    }
+    
+    .image {
+        width: 200px;
+        float: left;
+        padding: 0px 10px 0px 0px;
+    }
+    
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    /* Create three equal columns that floats next to each other */
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 10px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .table {
+        width: 100%;
+        background-color: white;
+    }
+    
+    .table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
         font-family: monospace;
-        font-size: 12px;
     }
-    
 </style>    
     
 <body>
+    
+<h1>DRAFT - Founders & Coders February 2017 Application - DRAFT</h1>
+    
+    <div class="clearfix">
+    
+    <img class = "image" src="https://revanslacey.files.wordpress.com/2012/02/dsc05143_2.jpg" alt="Richard Evans-Lacey">
+        
+        <h4> Name: </h4> <p style = "display: inline">Richard Evans-Lacey</p>
+        
+        <br> <br>
+        
+        <h4> Address: </h4> <p style = "display: inline">One Bartholomew Square, Bethnal Green.  E1 5PH</p>
+        
+        <br> <br>
+        
+        <h4> Email: </h4> <p style = "display: inline">richard@psychicplumbing.com</p>
+        
+        <br> <br>
+        
+        <h4> Telephone: </h4> <p style = "display: inline">020 7377 1918 / 07958 375 655</p>
+        
+        <br> <br>
+        
+        <h4>Qualifications: </h4> <p style = "display: inline">Master's Degree in Engineering, Economics, & Management from the University of Oxford.  3 A-levels and 7 GCSEs (all grade 'A')</p>
+        
+        <br> <br>
+        
+        <h4>Current occupation: </h4> <p style = "display: inline">Self employed psychotherapist and online shop owner</p>
+        
+        <br> <br>
+        
+        <h4>Ambition: </h4> <p style = "display: inline">"I am a valued member of a small, high performing team working together to create something new that makes things better."</p>
 
+    </div>
+    
+<h2>What I'm like</h2>
+    
+    <div class="row" style = "background-color: white">
+        <div class="column">
+            <h3>Not so good at</h3>
+                <ul>
+                    <li>Remembering stuff (times tables, names, telephone numbers, spellings etc)</li>
+                    <li>Navigating</li>
+                    <li>Mundane administration</li>
+                    <li>Dancing</li>
+                    <li>Being slim</li>
+                </ul>
+        </div>
+        <div class="column">
+            <h3>Would like to improve / practice</h3>
+                <ul>
+                    <li>Technical knowledge.  What's possible?  What can I learn to do myself?</li>
+                    <li>Aesthetic design</li>
+                    <li>Forming business teams</li>
+                    <li>Delivering projects to deadlines</li>
+                    <li>Taking products to market</li>
+                </ul>
+        </div>
+        <div class="column">
+            <h3>Pretty good at</h3>
+                <ul>
+                    <li>Understanding people - their motivations and requirements</li>
+                    <li>Spotting improvement opportunities</li>
+                    <li>Conceptual design</li>
+                    <li>Presenting solutions</li>
+                    <li>Teaching stuff I understand</li>
+                </ul>
+        </div>
+    </div>
+ 
+   
+<h2>My story</h2>
+    
+    
+    <p>I lived my early years as an awkward child in a small town in Warwickshire.  I was massively disappointed when I failed my 11+ exam and had to go to the local High School.  Despite being bullied I poured myself into my work and got all A grades in my GCSEs.  With my confidence boosted I went to another local school to study my A-levels and took a chance on an application to the University of Oxford.  I worked hard for the entrance exams and was delighted when my application to read Engineering, Economics, & Management (EEM) was accepted.</p>
+    
+    <p>Engineering at Oxford was hard.  At the time we did lots of mathematics and surprising little computer based work.  The parts of the course I most enjoyed were the management and digital logic papers.</p>
+    
+    <p>I started my working life as a management consultant in the financial services industry.  I soon found myself drawn to improving business processes and creating complex Excel spreadsheets.  This is where I got my first real taste for coding: writing Visual Basic to make my spreadsheets more powerful.  Though I enjoyed the varied nature of my job I wasn't excited about the industry.  I was often stressed and found myself heading for an emotional breakdown.  During this time I had my first experience of psychotherapy and shifted my attention from modelling business finances to modelling the human experience.</p>
+    
+    <p>I did lots of courses and became a qualified psychotherapist working privately from my home therapy room.  I am deeply interested in the field and I'm working towards being able to articulate a novel perspective on the structure of experience.  I enjoy the art and science of 'de-programming' people and think I'm quite good at it.  However, it is a rather solitary pursuit and I find the marketing side of the business is a real grind.</p>
+    
+    <p>In future I'd like to have a day job that gets me out of the house, working with bright people, solving problems, and creating something new that helps people.  I think software development could well fit the bill.  I'd like to continue to practice psychotherapy but reduce my committment to a couple of evenings a week or, perhaps, every other weekend.</p>
 
+<h2>Business ideas</h2>
     
-<h1>DRAFT - Richard Evans-Lacey - DRAFT</h1>
-    <p>Thank you for considering my application for the Febuary 2018 Founders & Coders course in Bethnal Green.</p>
-    <p>I am hoping that this course will enable me to fulfil my career outcome:</p>
+    <p>Alongside my psychotherapy career I have been inspired to develop a number of business ideas.  For many of them it is my lack of programming ability and business partners that has held me back.  I thought I'd introduce you to some of them here:</p>
     
-    <!-- Put this in a box -->
-    <p>"I am a valued member of a small, high performing team, working together to create something new that makes things better"</p>
+    <table class = "table">
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td><a href ="Plumb">Psychic Plumbing</a></td>
+            <td>The wordpress.com site for my psychotherapy business.</td>
+            <td>Active</td>
+        </tr>
+        <tr>
+            <td>Skilt</td>
+            <td>The wordpress.com site for my online menswear business.</td>
+            <td>Active</td>
+        </tr>
+        <tr>
+            <td>ViewandA</td>
+            <td>A video Q and A website to help people find the right therapist for them.</td>
+            <td>Prototype</td>
+        </tr>
+        <tr>
+            <td>Play Music Notation</td>
+            <td>An app to help choir singers who can't sight read to find the right notes.</td>
+            <td>Concept</td>
+        </tr>
+        <tr>
+            <td>Ask the seller</td>
+            <td>An app / website to help property buyers find the right property.</td>
+            <td>Concept</td>
+        </tr>
+        <tr>
+            <td>Spoker Table</td>
+            <td>A better user interface for online poker.</td>
+            <td>Concept</td>
+        </tr>
+    </table>
+
+    <h3><a name = "Plumb">Psychic Plumbing</a></h3>
     
+    <p>This is my psychotherapy business.  I see clients privately and I'm keen to continue to do this part time.</p>
+    <p>The website forms an important part of my marketing and is designed to convey information about psychotherapy in general and my style in particular.  Over the years I've re-branded twice and created a website for each.  The latest one was created using wordpress.com.  I'm interested in the possibility of migrating it to wordpress.org and incorporating an online booking system.</p>
+    
+
 </body>
 </html>
